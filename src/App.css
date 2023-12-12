@@ -1,3 +1,4 @@
+
 .App {
   padding: 30px;
   display: flex;
@@ -6,75 +7,20 @@
 .App > div {
   margin-right: 50px;
 }
-.todoList {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 15px;
-  background-color: blanchedalmond;
-}
-.tasksList {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: rgb(255, 223, 205);
-  margin-top: 15px;
-}
-.task {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: rgb(255, 223, 205);
-  margin-bottom: 3px;
-  font-weight: bold;
-}
-.list {
-  list-style: none;
-  padding: 0;
-}
-.task-done {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: rgb(205, 255, 253);
-  margin-bottom: 3px;
-  text-decoration: line-through;
-}
-.tasksList-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  line-height: 1.1;
-}
-.btn-active {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 3px;
-  background-color: rgb(31, 52, 44);
-  margin-bottom: 3px;
-  font-weight: bold;
-  color:aliceblue
-}
-.btn {
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 3px;
-  background-color: rgb(205, 255, 253);
-  margin-bottom: 3px;
-  font-weight: bold;
-}
-.btns-container {
-  display: flex;
-  justify-content: space-between;
-}
-.inputError {
-  border: 2px solid red;
-  outline: none;
+
+.error {
+  border: red 1px solid;
 }
 
-.info {
-  border: 1px solid black;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
+.error-message {
+  color: red;
 }
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
